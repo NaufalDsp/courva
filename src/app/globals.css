@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --background: #070a0f;
+  --surface: #101820;
+  --surface-soft: #17212b;
+  --border: #27313d;
+  --primary: #39ff88;
+  --primary-soft: #b6ff4d;
+  --text-primary: #f8fafc;
+  --text-secondary: #a7b0bc;
+  --muted: #6b7280;
+  --danger: #ff4d6d;
+  --warning: #facc15;
+  --success: #22c55e;
+  --info: #4da3ff;
+  --font-plus-jakarta: "Plus Jakarta Sans", "Inter", Arial, sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-soft: var(--surface-soft);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-soft: var(--primary-soft);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-muted: var(--muted);
+  --color-danger: var(--danger);
+  --color-warning: var(--warning);
+  --color-success: var(--success);
+  --color-info: var(--info);
+  --font-sans: var(--font-plus-jakarta);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top right, rgba(57, 255, 136, 0.18), transparent 28%),
+    radial-gradient(circle at bottom left, rgba(77, 163, 255, 0.12), transparent 24%),
+    #070a0f;
+  color: var(--text-primary);
+  font-family: var(--font-plus-jakarta), Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(57, 255, 136, 0.25);
+  color: #f8fafc;
+}
