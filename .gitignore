@@ -23,6 +23,10 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# local product docs
+prd.md
+desain.md
+
 # editor and local agent state
 .DS_Store
 .idea/
