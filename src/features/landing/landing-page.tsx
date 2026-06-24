@@ -131,8 +131,8 @@ export function LandingPage() {
                 Mulai Kelola Venue
                 <ArrowRight className="h-5 w-5" />
               </ButtonLink>
-              <ButtonLink href="#dashboard-preview" variant="secondary" size="lg">
-                Lihat Demo
+              <ButtonLink href="#fitur" variant="secondary" size="lg">
+                Pelajari Courva
               </ButtonLink>
             </div>
 

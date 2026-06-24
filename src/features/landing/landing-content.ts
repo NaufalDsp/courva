@@ -1,6 +1,7 @@
 export const navItems = [
   { label: "Fitur", href: "#fitur" },
   { label: "Cara Kerja", href: "#cara-kerja" },
+  { label: "Booking", href: "/venue/arena-sport-center" },
   { label: "Use Case", href: "#use-case" },
   { label: "FAQ", href: "#faq" },
 ];
