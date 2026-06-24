@@ -66,8 +66,8 @@ export function LandingPage() {
           </div>
 
           <div className="hidden items-center gap-3 lg:flex">
-            <ButtonLink href="/login" variant="ghost" size="sm">
-              Login
+            <ButtonLink href="/dashboard" variant="ghost" size="sm">
+              Dashboard
             </ButtonLink>
             <ButtonLink href="/register" size="sm">
               Mulai Sekarang
@@ -98,8 +98,8 @@ export function LandingPage() {
                 </a>
               ))}
               <div className="mt-2 grid gap-2 sm:grid-cols-2">
-                <ButtonLink href="/login" variant="secondary">
-                  Login
+                <ButtonLink href="/dashboard" variant="secondary">
+                  Dashboard
                 </ButtonLink>
                 <ButtonLink href="/register">
                   Mulai Sekarang
